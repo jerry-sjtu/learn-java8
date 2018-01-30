@@ -1,0 +1,43 @@
+2017-11-04 22:06:08,053-[TS] INFO main org.nd4j.linalg.factory.Nd4jBackend - Loaded [CpuBackend] backend
+2017-11-04 22:06:08,176-[TS] INFO main org.nd4j.nativeblas.NativeOpsHolder - Number of threads used for NativeOps: 4
+2017-11-04 22:06:08,349-[TS] INFO main org.reflections.Reflections - Reflections took 136 ms to scan 11 urls, producing 31 keys and 226 values 
+2017-11-04 22:06:08,522-[TS] INFO main org.nd4j.nativeblas.Nd4jBlas - Number of threads used for BLAS: 4
+2017-11-04 22:06:08,526-[TS] INFO main org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner - Backend used: [CPU]; OS: [Mac OS X]
+2017-11-04 22:06:08,526-[TS] INFO main org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner - Cores: [8]; Memory: [3.6GB];
+2017-11-04 22:06:08,526-[TS] INFO main org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner - Blas vendor: [OPENBLAS]
+2017-11-04 22:06:08,785-[TS] INFO main org.reflections.Reflections - Reflections took 213 ms to scan 11 urls, producing 383 keys and 1517 values 
+2017-11-04 22:17:20,714-[TS] INFO main org.nd4j.linalg.factory.Nd4jBackend - Loaded [CpuBackend] backend
+2017-11-04 22:17:20,818-[TS] INFO main org.nd4j.nativeblas.NativeOpsHolder - Number of threads used for NativeOps: 4
+2017-11-04 22:17:20,999-[TS] INFO main org.reflections.Reflections - Reflections took 138 ms to scan 11 urls, producing 31 keys and 226 values 
+2017-11-04 22:17:21,180-[TS] INFO main org.nd4j.nativeblas.Nd4jBlas - Number of threads used for BLAS: 4
+2017-11-04 22:17:21,183-[TS] INFO main org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner - Backend used: [CPU]; OS: [Mac OS X]
+2017-11-04 22:17:21,183-[TS] INFO main org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner - Cores: [8]; Memory: [3.6GB];
+2017-11-04 22:17:21,183-[TS] INFO main org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner - Blas vendor: [OPENBLAS]
+2017-11-04 22:18:19,073-[TS] INFO main org.nd4j.linalg.factory.Nd4jBackend - Loaded [CpuBackend] backend
+2017-11-04 22:18:19,168-[TS] INFO main org.nd4j.nativeblas.NativeOpsHolder - Number of threads used for NativeOps: 4
+2017-11-04 22:18:19,335-[TS] INFO main org.reflections.Reflections - Reflections took 125 ms to scan 11 urls, producing 31 keys and 226 values 
+2017-11-04 22:18:19,501-[TS] INFO main org.nd4j.nativeblas.Nd4jBlas - Number of threads used for BLAS: 4
+2017-11-04 22:18:19,503-[TS] INFO main org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner - Backend used: [CPU]; OS: [Mac OS X]
+2017-11-04 22:18:19,504-[TS] INFO main org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner - Cores: [8]; Memory: [3.6GB];
+2017-11-04 22:18:19,504-[TS] INFO main org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner - Blas vendor: [OPENBLAS]
+2017-11-04 22:21:47,619-[TS] INFO main org.nd4j.linalg.factory.Nd4jBackend - Loaded [CpuBackend] backend
+2017-11-04 22:21:47,716-[TS] INFO main org.nd4j.nativeblas.NativeOpsHolder - Number of threads used for NativeOps: 4
+2017-11-04 22:21:47,902-[TS] INFO main org.reflections.Reflections - Reflections took 147 ms to scan 11 urls, producing 31 keys and 226 values 
+2017-11-04 22:21:48,114-[TS] INFO main org.nd4j.nativeblas.Nd4jBlas - Number of threads used for BLAS: 4
+2017-11-04 22:21:48,117-[TS] INFO main org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner - Backend used: [CPU]; OS: [Mac OS X]
+2017-11-04 22:21:48,117-[TS] INFO main org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner - Cores: [8]; Memory: [3.6GB];
+2017-11-04 22:21:48,118-[TS] INFO main org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner - Blas vendor: [OPENBLAS]
+2017-11-04 22:24:25,878-[TS] INFO main org.nd4j.linalg.factory.Nd4jBackend - Loaded [CpuBackend] backend
+2017-11-04 22:24:25,970-[TS] INFO main org.nd4j.nativeblas.NativeOpsHolder - Number of threads used for NativeOps: 4
+2017-11-04 22:24:26,151-[TS] INFO main org.reflections.Reflections - Reflections took 144 ms to scan 11 urls, producing 31 keys and 226 values 
+2017-11-04 22:24:26,364-[TS] INFO main org.nd4j.nativeblas.Nd4jBlas - Number of threads used for BLAS: 4
+2017-11-04 22:24:26,368-[TS] INFO main org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner - Backend used: [CPU]; OS: [Mac OS X]
+2017-11-04 22:24:26,368-[TS] INFO main org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner - Cores: [8]; Memory: [3.6GB];
+2017-11-04 22:24:26,368-[TS] INFO main org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner - Blas vendor: [OPENBLAS]
+2017-11-04 22:25:10,215-[TS] INFO main org.nd4j.linalg.factory.Nd4jBackend - Loaded [CpuBackend] backend
+2017-11-04 22:25:10,301-[TS] INFO main org.nd4j.nativeblas.NativeOpsHolder - Number of threads used for NativeOps: 4
+2017-11-04 22:25:10,440-[TS] INFO main org.reflections.Reflections - Reflections took 106 ms to scan 11 urls, producing 31 keys and 226 values 
+2017-11-04 22:25:10,598-[TS] INFO main org.nd4j.nativeblas.Nd4jBlas - Number of threads used for BLAS: 4
+2017-11-04 22:25:10,601-[TS] INFO main org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner - Backend used: [CPU]; OS: [Mac OS X]
+2017-11-04 22:25:10,601-[TS] INFO main org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner - Cores: [8]; Memory: [3.6GB];
+2017-11-04 22:25:10,601-[TS] INFO main org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner - Blas vendor: [OPENBLAS]

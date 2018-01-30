@@ -1,5 +1,6 @@
 package org.dcharm.java;
 
+import org.apache.commons.lang3.math.NumberUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -14,6 +15,11 @@ public class A {
     private static final Logger logger = LoggerFactory.getLogger(A.class);
 
     public static void main(String[] args) throws Exception {
+        System.out.println(NumberUtils.isDigits("1212"));
+        System.out.println(NumberUtils.isCreatable("12.12"));
+        System.out.println(NumberUtils.isCreatable("0.1212"));
+        System.out.println(NumberUtils.isCreatable("0ad"));
+
         try {
             System.out.println("------------------");
             ExecutorService service = Executors.newSingleThreadExecutor();

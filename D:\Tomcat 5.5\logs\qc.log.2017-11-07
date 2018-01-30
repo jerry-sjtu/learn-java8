@@ -1,0 +1,36 @@
+2017-11-07 15:37:06,618-[TS] INFO main org.dcharm.java.A - java.lang.NullPointerException
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192)
+	at org.dcharm.java.A.main(A.java:27)
+Caused by: java.lang.NullPointerException
+	at org.dcharm.java.A$SumTask.call(A.java:44)
+	at org.dcharm.java.A$SumTask.call(A.java:36)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2017-11-07 15:37:23,583-[TS] INFO main org.dcharm.java.A - java.lang.NullPointerException
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192)
+	at org.dcharm.java.A.main(A.java:27)
+Caused by: java.lang.NullPointerException
+	at org.dcharm.java.A$SumTask.call(A.java:44)
+	at org.dcharm.java.A$SumTask.call(A.java:36)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2017-11-07 15:37:35,448-[TS] INFO main org.dcharm.java.A - java.lang.NullPointerException
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192)
+	at org.dcharm.java.A.main(A.java:28)
+Caused by: java.lang.NullPointerException
+	at org.dcharm.java.A$SumTask.call(A.java:45)
+	at org.dcharm.java.A$SumTask.call(A.java:37)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)

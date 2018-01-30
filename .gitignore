@@ -32,11 +32,15 @@ test-output/
 
 #logs
 */*/logs/
-*.log
 
 */.DS_Store
 .metadata/*
 
 ./addNewScoreItem.sh
 addNewScoreItem.sh
-pom.properties
+
+git.properties
+**/git.properties
+
+tags
+*.swp
