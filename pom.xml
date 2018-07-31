@@ -16,6 +16,13 @@
     </properties>
 
     <dependencies>
+        <!-- primitive collection -->
+        <dependency>
+            <groupId>com.carrotsearch</groupId>
+            <artifactId>hppc</artifactId>
+            <version>0.8.1</version>
+        </dependency>
+
         <!-- feature store -->
         <dependency>
                 <groupId>org.fusesource.leveldbjni</groupId>
