@@ -21,13 +21,23 @@ import java.util.ArrayList;
  */
 public class BF {
     public static void main(String[] args) throws Exception {
-        System.out.println(" sfa" + null);
+        BF bf1 = new BF();
+        System.out.println(bf1.getClass().getCanonicalName());
+
+        System.out.println(Math.log(2));
+        System.out.println(Math.log(3) - Math.log(2));
 
         ArrayList<String> arrayList = new ArrayList<>();
         arrayList.add(0, "a");
         System.out.println(arrayList);
 
-        BloomFilter<Integer> bf = BloomFilter.create(Funnels.integerFunnel(), 12);
+        BloomFilter<Integer> bf = BloomFilter.create(Funnels.integerFunnel(), 10000);
+        ByteArrayOutputStream bo = new ByteArrayOutputStream();
+        bf.writeTo(bo);
+        System.out.println(bo.size());
+
+        bf.copy();
+
         bf.put(1);
         bf.put(2);
         System.out.println(bf.mightContain(1));

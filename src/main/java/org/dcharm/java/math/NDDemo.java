@@ -1,17 +1,74 @@
 package org.dcharm.java.math;
 
 import org.apache.commons.lang3.ArrayUtils;
+import org.deeplearning4j.nn.conf.WorkspaceMode;
+import org.nd4j.linalg.api.memory.MemoryWorkspace;
+import org.nd4j.linalg.api.memory.conf.WorkspaceConfiguration;
+import org.nd4j.linalg.api.memory.enums.AllocationPolicy;
+import org.nd4j.linalg.api.memory.enums.LearningPolicy;
 import org.nd4j.linalg.api.ndarray.INDArray;
+import org.nd4j.linalg.cpu.nativecpu.NDArray;
 import org.nd4j.linalg.factory.Nd4j;
+import org.nd4j.linalg.ops.transforms.Transforms;
 import org.nd4j.linalg.util.ArrayUtil;
 import static org.nd4j.linalg.ops.transforms.Transforms.*;
 
 import java.util.ArrayList;
 
 public class NDDemo {
+    private static INDArray itemArray;
+
     public static void main(String[] args) {
+
 //        arrayOp();
-        compare();
+//        compare();
+//
+//        for(int i = 0; i < 1000; i++) {
+//            concatOp();
+//        }
+
+        int itemNum = 300;
+        int featureNum = 100;
+        float[] userVec = new float[featureNum];
+        for(int i = 0; i < featureNum; i++) {
+            userVec[i] = 0.01f;
+        }
+        float[][] itemMatrix = new float[featureNum][itemNum];
+        for(int i = 0; i < itemMatrix.length; i++) {
+            for (int j = 0; j < itemMatrix[i].length; j++) {
+                itemMatrix[i][j] = i;
+                System.out.print(i + " ");
+            }
+            System.out.println("");
+        }
+        float[] score = new float[itemNum];
+        for(int i = 0; i < score.length; i++) {
+            score[i] = i * 0.003f;
+        }
+
+        WorkspaceConfiguration initialConfig = WorkspaceConfiguration.builder()
+                .initialSize(100 * 1024L * 1024L)
+                .policyAllocation(AllocationPolicy.STRICT)
+                .policyLearning(LearningPolicy.NONE)
+                .build();
+
+        INDArray uv = Nd4j.create(userVec);
+
+
+        try(MemoryWorkspace ws = Nd4j.getWorkspaceManager().getAndActivateWorkspace(initialConfig, "SOME_ID")) {
+            long t1 = System.currentTimeMillis();
+            for (int i = 0; i < 10000; i++) {
+                    bestList1(userVec, itemMatrix, score);
+            }
+            System.out.println(System.currentTimeMillis() - t1);
+            System.out.println("------------------------");
+        }
+        long t2 = System.currentTimeMillis();
+        for(int i = 0; i < 10000; i++) {
+            bestList2(userVec, itemMatrix, score);
+        }
+        System.out.println(System.currentTimeMillis() - t2);
+        System.out.println("------------------------");
 
 //        for(int i = 0; i < round; i++) {
 //            javaOp(array);
@@ -45,6 +102,60 @@ public class NDDemo {
 //        t1 = System.currentTimeMillis();
 //        nd4.mmul(nd5);
 //        System.out.println(System.currentTimeMillis() - t1);
+    }
+
+    private static void bestList1(float[] userVec, float[][] itemMatrix, float[] utilityVec) {
+        INDArray uv = Nd4j.create(userVec);
+        INDArray sv = Nd4j.create(utilityVec);
+        if(itemArray == null) {
+            itemArray = Nd4j.create(itemMatrix);
+        }
+
+//        System.out.println(itemArray);
+//        itemArray.addi(1f);
+        itemArray.sum(0);
+//        INDArray sum = itemArray.sum(1).addi(1);
+//        System.out.println(sum);
+//        INDArray logV = Transforms.log(sum);
+//        System.out.println(logV);
+//        INDArray result = uv.mmul(logV);
+//        System.out.println(uv);
+//        System.out.println(result);
+//        float r = sv.sumNumber().floatValue() + result.getFloat(0);
+//        System.out.println(sv.sumNumber().floatValue() + result.getFloat(0));
+    }
+
+    private static void bestList2(float[] userVec, float[][] itemMatrix, float[] utilityVec) {
+        float[] v1 = new float[itemMatrix.length];
+        for(int i = 0; i < itemMatrix.length; i++) {
+            v1[i] = 1;
+        }
+        for(int i = 0; i < itemMatrix.length; i++) {
+            for(int j = 0; j < itemMatrix[i].length; j++) {
+                v1[i] += itemMatrix[i][j];
+            }
+        }
+//        for(int i = 0; i < v1.length; i++) {
+//            System.out.print(v1[i] + " ");
+//        }
+//        System.out.println();
+        float sum = 0;
+        for(int i = 0; i < itemMatrix.length; i++) {
+            sum += userVec[i] * Math.log(v1[i]);
+        }
+//        System.out.println(sum);
+        for(int i = 0; i < utilityVec.length; i++) {
+            sum += utilityVec[i];
+        }
+//        System.out.println(sum);
+    }
+
+
+    private static void concatOp() {
+        INDArray a1 = Nd4j.zeros(10, 10);
+        INDArray a2 = Nd4j.zeros(10, 20);
+        a2.put(0, 1, 1);
+        INDArray a3 = Nd4j.concat(1, a1, a2);
     }
 
     private static float[][] jmOp(float[][] m1, float[][] m2) {

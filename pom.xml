@@ -16,6 +16,18 @@
     </properties>
 
     <dependencies>
+        <!-- feature store -->
+        <dependency>
+                <groupId>org.fusesource.leveldbjni</groupId>
+                <artifactId>leveldbjni-all</artifactId>
+                <version>1.8</version>
+        </dependency>
+        <dependency>
+            <groupId>org.mapdb</groupId>
+            <artifactId>mapdb</artifactId>
+            <version>3.0.7</version>
+        </dependency>
+
         <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
         <dependency>
             <groupId>com.google.code.gson</groupId>
@@ -65,7 +77,11 @@
             <artifactId>deeplearning4j-parallel-wrapper_2.11</artifactId>
             <version>0.9.1</version>
         </dependency>
-
+        <dependency>
+            <groupId>org.nd4j</groupId>
+            <artifactId>nd4j-native-platform</artifactId>
+            <version>${nd4j.version}</version>
+        </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-log4j12</artifactId>
