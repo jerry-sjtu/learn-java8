@@ -4,20 +4,28 @@ package org.dcharm.java.math;
  * Create by qiangwang on 2018/1/12
  */
 import com.alibaba.fastjson.JSONObject;
+import org.apache.commons.io.FilenameUtils;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.*;
 public class A{
+    private static final Logger logger = LoggerFactory.getLogger(A.class);
     private static final String KEY_IMP = "imp";
     private static final String KEY_CLICK = "click";
     private static final String KEY_BIZ_ID = "bizid";
     private static final String KEY_ITEM_ID = "itemid";
 
     public static void quickSort(int arr[], int left, int right){
-        if(arr == null  || right -left <2)
-            return;
+//        if(arr == null  || right -left <2)
+//            return;
 //        int middle = partition(arr, left, right-1);
 //        quickSort(arr, left, middle);
 //        quickSort(arr, middle+1, right-1);
+
+
+//        String s = FilenameUtils.concat(System.getProperty("java.io.tmpdir"), "dl4j_w2vSentiment/");
+//        System.out.println(s);
     }
 
     private static Map<String, Integer> parseImpClick(String s) {
@@ -63,11 +71,23 @@ public class A{
     }
 
     public static void main (String args[]){
-        String s = " {\"v\":\"1.0\",\"info\":\"20:145897:347,19:1578789:39475\"}";
-//        s = null;
-//        s = ""
-        s = " {\"v\":\"1.0\",\"info\":\"20:145897:347\"}";
-        Map<String, Integer> m = parseImpClick(s);
-        System.out.println(m);
+//        String s = FilenameUtils.concat(System.getProperty("java.io.tmpdir"), "dl4j_w2vSentiment/");
+//        System.out.println(s);
+//        float a = 0.055364f;
+//        System.out.println(a * a);
+
+        int x = 1;
+        try {
+            if(x > 0) {
+                return;
+            }
+        }
+        catch (Exception e) {
+            logger.error(e.getMessage(), e);
+        }
+        finally {
+            logger.info("here--------");
+        }
+
     }
 }

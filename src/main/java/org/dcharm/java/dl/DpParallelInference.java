@@ -128,7 +128,8 @@ public class DpParallelInference {
      * @return
      */
     public INDArray output(DataSet dataSet) {
-        return output(dataSet.getFeatureMatrix());
+//        return output(dataSet.getFeatureMatrix());
+        return null;
     }
 
     /**
