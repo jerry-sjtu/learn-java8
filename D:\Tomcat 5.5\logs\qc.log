@@ -1,0 +1,296 @@
+2019-07-30 12:00:39,198-[TS] INFO main org.ansj.util.MyStaticValue - init userLibrary to env value is : library/dpsr_kw.dic
+2019-07-30 12:00:39,209-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/ambiguity.dic
+2019-07-30 12:00:39,228-[TS] ERROR main org.ansj.library.AmbiguityLibrary - Init ambiguity library error :org.ansj.exception.LibraryException:  path :library/ambiguity.dic file:/Users/qiangwang/workspace/learn-java8/library/ambiguity.dic not found or can not to read, path: library/ambiguity.dic
+2019-07-30 12:00:39,229-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/default.dic
+2019-07-30 12:00:39,229-[TS] ERROR main org.ansj.library.DicLibrary - Init ambiguity library error :org.ansj.exception.LibraryException:  path :library/default.dic file:/Users/qiangwang/workspace/learn-java8/library/default.dic not found or can not to read, path: library/default.dic
+2019-07-30 12:00:39,924-[TS] INFO main org.ansj.library.DATDictionary - init core library ok use time : 680
+2019-07-30 12:00:40,531-[TS] INFO main org.ansj.library.NgramLibrary - init ngram ok use time :478
+2019-07-30 12:00:41,582-[TS] INFO main org.ansj.app.crf.Model - load crf model ok ! use time :1038
+2019-07-30 12:00:41,582-[TS] INFO main org.ansj.library.CrfLibrary - load crf use time:1045 path is : jar://crf.model
+2019-07-30 12:03:26,522-[TS] INFO main org.ansj.util.MyStaticValue - init ambiguityLibrary to env value is : library/ambiguity.dic
+2019-07-30 12:03:26,527-[TS] INFO main org.ansj.util.MyStaticValue - init userLibrary to env value is : library/dpsr_kw.dic
+2019-07-30 12:03:26,531-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/ambiguity.dic
+2019-07-30 12:03:26,533-[TS] ERROR main org.ansj.library.AmbiguityLibrary - Init ambiguity library error :org.ansj.exception.LibraryException:  path :library/ambiguity.dic file:/Users/qiangwang/workspace/learn-java8/library/ambiguity.dic not found or can not to read, path: library/ambiguity.dic
+2019-07-30 12:03:26,534-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/default.dic
+2019-07-30 12:03:26,534-[TS] ERROR main org.ansj.library.DicLibrary - Init ambiguity library error :org.ansj.exception.LibraryException:  path :library/default.dic file:/Users/qiangwang/workspace/learn-java8/library/default.dic not found or can not to read, path: library/default.dic
+2019-07-30 12:03:27,371-[TS] INFO main org.ansj.library.DATDictionary - init core library ok use time : 816
+2019-07-30 12:03:27,979-[TS] INFO main org.ansj.library.NgramLibrary - init ngram ok use time :493
+2019-07-30 12:03:29,161-[TS] INFO main org.ansj.app.crf.Model - load crf model ok ! use time :1170
+2019-07-30 12:03:29,161-[TS] INFO main org.ansj.library.CrfLibrary - load crf use time:1175 path is : jar://crf.model
+2019-07-30 12:04:37,001-[TS] INFO main org.ansj.util.MyStaticValue - init ambiguityLibrary to env value is : library/ambiguity.dic
+2019-07-30 12:04:37,005-[TS] INFO main org.ansj.util.MyStaticValue - init userLibrary to env value is : library/dpsr_kw.dic
+2019-07-30 12:04:37,009-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/ambiguity.dic
+2019-07-30 12:04:37,012-[TS] ERROR main org.ansj.library.AmbiguityLibrary - Init ambiguity library error :org.ansj.exception.LibraryException:  path :library/ambiguity.dic file:/Users/qiangwang/workspace/learn-java8/library/ambiguity.dic not found or can not to read, path: library/ambiguity.dic
+2019-07-30 12:04:37,013-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/default.dic
+2019-07-30 12:04:37,013-[TS] ERROR main org.ansj.library.DicLibrary - Init ambiguity library error :org.ansj.exception.LibraryException:  path :library/default.dic file:/Users/qiangwang/workspace/learn-java8/library/default.dic not found or can not to read, path: library/default.dic
+2019-07-30 12:04:37,582-[TS] INFO main org.ansj.library.DATDictionary - init core library ok use time : 555
+2019-07-30 12:04:38,109-[TS] INFO main org.ansj.library.NgramLibrary - init ngram ok use time :455
+2019-07-30 12:04:50,439-[TS] INFO main org.ansj.util.MyStaticValue - init ambiguityLibrary to env value is : library/ambiguity.dic
+2019-07-30 12:04:50,442-[TS] INFO main org.ansj.util.MyStaticValue - init userLibrary to env value is : library/dpsr_kw.dic
+2019-07-30 12:04:50,447-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/ambiguity.dic
+2019-07-30 12:04:50,449-[TS] ERROR main org.ansj.library.AmbiguityLibrary - Init ambiguity library error :org.ansj.exception.LibraryException:  path :library/ambiguity.dic file:/Users/qiangwang/workspace/learn-java8/library/ambiguity.dic not found or can not to read, path: library/ambiguity.dic
+2019-07-30 12:04:50,451-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/default.dic
+2019-07-30 12:04:50,451-[TS] ERROR main org.ansj.library.DicLibrary - Init ambiguity library error :org.ansj.exception.LibraryException:  path :library/default.dic file:/Users/qiangwang/workspace/learn-java8/library/default.dic not found or can not to read, path: library/default.dic
+2019-07-30 12:04:50,986-[TS] INFO main org.ansj.library.DATDictionary - init core library ok use time : 516
+2019-07-30 12:04:51,484-[TS] INFO main org.ansj.library.NgramLibrary - init ngram ok use time :410
+2019-07-30 12:04:52,589-[TS] INFO main org.ansj.app.crf.Model - load crf model ok ! use time :1093
+2019-07-30 12:04:52,590-[TS] INFO main org.ansj.library.CrfLibrary - load crf use time:1098 path is : jar://crf.model
+2019-07-30 12:05:11,736-[TS] INFO main org.ansj.util.MyStaticValue - init ambiguityLibrary to env value is : library/ambiguity.dic
+2019-07-30 12:05:11,740-[TS] INFO main org.ansj.util.MyStaticValue - init userLibrary to env value is : library/dpsr_kw.dic
+2019-07-30 12:05:11,744-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/ambiguity.dic
+2019-07-30 12:05:11,746-[TS] ERROR main org.ansj.library.AmbiguityLibrary - Init ambiguity library error :org.ansj.exception.LibraryException:  path :library/ambiguity.dic file:/Users/qiangwang/workspace/learn-java8/library/ambiguity.dic not found or can not to read, path: library/ambiguity.dic
+2019-07-30 12:05:11,747-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/default.dic
+2019-07-30 12:05:11,747-[TS] ERROR main org.ansj.library.DicLibrary - Init ambiguity library error :org.ansj.exception.LibraryException:  path :library/default.dic file:/Users/qiangwang/workspace/learn-java8/library/default.dic not found or can not to read, path: library/default.dic
+2019-07-30 12:05:12,273-[TS] INFO main org.ansj.library.DATDictionary - init core library ok use time : 504
+2019-07-30 12:05:12,905-[TS] INFO main org.ansj.library.NgramLibrary - init ngram ok use time :503
+2019-07-30 12:05:13,955-[TS] INFO main org.ansj.app.crf.Model - load crf model ok ! use time :1034
+2019-07-30 12:05:13,955-[TS] INFO main org.ansj.library.CrfLibrary - load crf use time:1040 path is : jar://crf.model
+2019-07-30 12:06:02,001-[TS] INFO main org.ansj.util.MyStaticValue - init ambiguityLibrary to env value is : /library/ambiguity.dic
+2019-07-30 12:06:02,005-[TS] INFO main org.ansj.util.MyStaticValue - init userLibrary to env value is : /library/dpsr_kw.dic
+2019-07-30 12:06:02,010-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/ambiguity.dic
+2019-07-30 12:06:02,013-[TS] ERROR main org.ansj.library.AmbiguityLibrary - Init ambiguity library error :org.ansj.exception.LibraryException:  path :library/ambiguity.dic file:/Users/qiangwang/workspace/learn-java8/library/ambiguity.dic not found or can not to read, path: library/ambiguity.dic
+2019-07-30 12:06:02,014-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/default.dic
+2019-07-30 12:06:02,014-[TS] ERROR main org.ansj.library.DicLibrary - Init ambiguity library error :org.ansj.exception.LibraryException:  path :library/default.dic file:/Users/qiangwang/workspace/learn-java8/library/default.dic not found or can not to read, path: library/default.dic
+2019-07-30 12:06:02,577-[TS] INFO main org.ansj.library.DATDictionary - init core library ok use time : 547
+2019-07-30 12:06:03,130-[TS] INFO main org.ansj.library.NgramLibrary - init ngram ok use time :468
+2019-07-30 12:06:04,147-[TS] INFO main org.ansj.app.crf.Model - load crf model ok ! use time :1003
+2019-07-30 12:06:04,148-[TS] INFO main org.ansj.library.CrfLibrary - load crf use time:1008 path is : jar://crf.model
+2019-07-30 12:11:58,503-[TS] INFO main org.ansj.util.MyStaticValue - init ambiguityLibrary to env value is : /library/ambiguity.dic
+2019-07-30 12:11:58,511-[TS] INFO main org.ansj.util.MyStaticValue - init userLibrary to env value is : /dpsr_kw.dic
+2019-07-30 12:11:58,518-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/ambiguity.dic
+2019-07-30 12:11:58,522-[TS] ERROR main org.ansj.library.AmbiguityLibrary - Init ambiguity library error :org.ansj.exception.LibraryException:  path :library/ambiguity.dic file:/Users/qiangwang/workspace/learn-java8/library/ambiguity.dic not found or can not to read, path: library/ambiguity.dic
+2019-07-30 12:11:58,523-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/default.dic
+2019-07-30 12:11:58,523-[TS] ERROR main org.ansj.library.DicLibrary - Init ambiguity library error :org.ansj.exception.LibraryException:  path :library/default.dic file:/Users/qiangwang/workspace/learn-java8/library/default.dic not found or can not to read, path: library/default.dic
+2019-07-30 12:11:59,145-[TS] INFO main org.ansj.library.DATDictionary - init core library ok use time : 603
+2019-07-30 12:11:59,675-[TS] INFO main org.ansj.library.NgramLibrary - init ngram ok use time :440
+2019-07-30 12:12:00,784-[TS] INFO main org.ansj.app.crf.Model - load crf model ok ! use time :1098
+2019-07-30 12:12:00,785-[TS] INFO main org.ansj.library.CrfLibrary - load crf use time:1102 path is : jar://crf.model
+2019-07-30 12:12:11,510-[TS] INFO main org.ansj.util.MyStaticValue - init ambiguityLibrary to env value is : /ambiguity.dic
+2019-07-30 12:12:11,515-[TS] INFO main org.ansj.util.MyStaticValue - init userLibrary to env value is : /dpsr_kw.dic
+2019-07-30 12:12:11,523-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/ambiguity.dic
+2019-07-30 12:12:11,526-[TS] ERROR main org.ansj.library.AmbiguityLibrary - Init ambiguity library error :org.ansj.exception.LibraryException:  path :library/ambiguity.dic file:/Users/qiangwang/workspace/learn-java8/library/ambiguity.dic not found or can not to read, path: library/ambiguity.dic
+2019-07-30 12:12:11,527-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/default.dic
+2019-07-30 12:12:11,528-[TS] ERROR main org.ansj.library.DicLibrary - Init ambiguity library error :org.ansj.exception.LibraryException:  path :library/default.dic file:/Users/qiangwang/workspace/learn-java8/library/default.dic not found or can not to read, path: library/default.dic
+2019-07-30 12:12:12,135-[TS] INFO main org.ansj.library.DATDictionary - init core library ok use time : 593
+2019-07-30 12:12:12,680-[TS] INFO main org.ansj.library.NgramLibrary - init ngram ok use time :434
+2019-07-30 12:12:13,740-[TS] INFO main org.ansj.app.crf.Model - load crf model ok ! use time :1047
+2019-07-30 12:12:13,740-[TS] INFO main org.ansj.library.CrfLibrary - load crf use time:1052 path is : jar://crf.model
+2019-07-30 12:12:41,612-[TS] INFO main org.ansj.util.MyStaticValue - init ambiguityLibrary to env value is : /ambiguity.dic
+2019-07-30 12:12:41,616-[TS] INFO main org.ansj.util.MyStaticValue - init userLibrary to env value is : /dpsr_kw.dic
+2019-07-30 12:12:41,633-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/ambiguity.dic
+2019-07-30 12:12:41,640-[TS] ERROR main org.ansj.library.AmbiguityLibrary - Init ambiguity library error :org.ansj.exception.LibraryException:  path :library/ambiguity.dic file:/Users/qiangwang/workspace/learn-java8/library/ambiguity.dic not found or can not to read, path: library/ambiguity.dic
+2019-07-30 12:12:45,377-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/default.dic
+2019-07-30 12:13:43,677-[TS] ERROR main org.ansj.library.DicLibrary - Init ambiguity library error :org.ansj.exception.LibraryException:  path :library/default.dic file:/Users/qiangwang/workspace/learn-java8/library/default.dic not found or can not to read, path: library/default.dic
+2019-07-30 12:13:44,338-[TS] INFO main org.ansj.library.DATDictionary - init core library ok use time : 637
+2019-07-30 12:13:44,798-[TS] INFO main org.ansj.library.NgramLibrary - init ngram ok use time :391
+2019-07-30 12:13:46,257-[TS] INFO main org.ansj.app.crf.Model - load crf model ok ! use time :1448
+2019-07-30 12:13:46,259-[TS] INFO main org.ansj.library.CrfLibrary - load crf use time:1454 path is : jar://crf.model
+2019-07-30 12:14:32,711-[TS] INFO main org.ansj.util.MyStaticValue - init ambiguityLibrary to env value is : /ambiguity.dic
+2019-07-30 12:14:32,715-[TS] INFO main org.ansj.util.MyStaticValue - init userLibrary to env value is : /dpsr_kw.dic
+2019-07-30 12:14:32,723-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/ambiguity.dic
+2019-07-30 12:14:32,726-[TS] ERROR main org.ansj.library.AmbiguityLibrary - Init ambiguity library error :org.ansj.exception.LibraryException:  path :library/ambiguity.dic file:/Users/qiangwang/workspace/learn-java8/library/ambiguity.dic not found or can not to read, path: library/ambiguity.dic
+2019-07-30 12:14:32,727-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/default.dic
+2019-07-30 12:14:32,727-[TS] ERROR main org.ansj.library.DicLibrary - Init ambiguity library error :org.ansj.exception.LibraryException:  path :library/default.dic file:/Users/qiangwang/workspace/learn-java8/library/default.dic not found or can not to read, path: library/default.dic
+2019-07-30 12:14:33,316-[TS] INFO main org.ansj.library.DATDictionary - init core library ok use time : 575
+2019-07-30 12:14:33,807-[TS] INFO main org.ansj.library.NgramLibrary - init ngram ok use time :404
+2019-07-30 12:14:34,769-[TS] INFO main org.ansj.app.crf.Model - load crf model ok ! use time :951
+2019-07-30 12:14:34,769-[TS] INFO main org.ansj.library.CrfLibrary - load crf use time:955 path is : jar://crf.model
+2019-07-30 13:49:00,418-[TS] INFO main org.ansj.util.MyStaticValue - init ambiguityLibrary to env value is : /ambiguity.dic
+2019-07-30 13:49:00,421-[TS] INFO main org.ansj.util.MyStaticValue - init userLibrary to env value is : /dpsr_kw.dic
+2019-07-30 13:49:00,426-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/ambiguity.dic
+2019-07-30 13:49:00,428-[TS] ERROR main org.ansj.library.AmbiguityLibrary - Init ambiguity library error :org.ansj.exception.LibraryException:  path :library/ambiguity.dic file:/Users/qiangwang/workspace/learn-java8/library/ambiguity.dic not found or can not to read, path: library/ambiguity.dic
+2019-07-30 13:49:00,429-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/default.dic
+2019-07-30 13:49:00,429-[TS] ERROR main org.ansj.library.DicLibrary - Init ambiguity library error :org.ansj.exception.LibraryException:  path :library/default.dic file:/Users/qiangwang/workspace/learn-java8/library/default.dic not found or can not to read, path: library/default.dic
+2019-07-30 13:49:01,028-[TS] INFO main org.ansj.library.DATDictionary - init core library ok use time : 583
+2019-07-30 13:49:01,712-[TS] INFO main org.ansj.library.NgramLibrary - init ngram ok use time :579
+2019-07-30 13:49:02,748-[TS] INFO main org.ansj.app.crf.Model - load crf model ok ! use time :1025
+2019-07-30 13:49:02,748-[TS] INFO main org.ansj.library.CrfLibrary - load crf use time:1029 path is : jar://crf.model
+2019-07-30 14:00:46,145-[TS] INFO main org.ansj.util.MyStaticValue - init ambiguityLibrary to env value is : /ambiguity.dic
+2019-07-30 14:00:46,149-[TS] INFO main org.ansj.util.MyStaticValue - init userLibrary to env value is : /dpsr_kw.dic
+2019-07-30 14:00:46,156-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/ambiguity.dic
+2019-07-30 14:00:46,160-[TS] ERROR main org.ansj.library.AmbiguityLibrary - Init ambiguity library error :org.ansj.exception.LibraryException:  path :library/ambiguity.dic file:/Users/qiangwang/workspace/learn-java8/library/ambiguity.dic not found or can not to read, path: library/ambiguity.dic
+2019-07-30 14:01:48,804-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/default.dic
+2019-07-30 14:01:48,804-[TS] ERROR main org.ansj.library.DicLibrary - Init ambiguity library error :org.ansj.exception.LibraryException:  path :library/default.dic file:/Users/qiangwang/workspace/learn-java8/library/default.dic not found or can not to read, path: library/default.dic
+2019-07-30 14:02:08,782-[TS] INFO main org.ansj.util.MyStaticValue - init ambiguityLibrary to env value is : /ambiguity.dic
+2019-07-30 14:02:08,786-[TS] INFO main org.ansj.util.MyStaticValue - init userLibrary to env value is : /dpsr_kw.dic
+2019-07-30 14:02:08,790-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/ambiguity.dic
+2019-07-30 14:02:08,796-[TS] INFO main org.ansj.library.AmbiguityLibrary - load dic use time:3 path is : library/ambiguity.dic
+2019-07-30 14:02:08,797-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/default.dic
+2019-07-30 14:02:09,546-[TS] INFO main org.ansj.library.DicLibrary - load dic use time:749 path is : library/default.dic
+2019-07-30 14:02:10,156-[TS] INFO main org.ansj.library.DATDictionary - init core library ok use time : 592
+2019-07-30 14:02:10,590-[TS] INFO main org.ansj.library.NgramLibrary - init ngram ok use time :374
+2019-07-30 14:02:11,706-[TS] INFO main org.ansj.app.crf.Model - load crf model ok ! use time :1106
+2019-07-30 14:02:11,706-[TS] INFO main org.ansj.library.CrfLibrary - load crf use time:1110 path is : jar://crf.model
+2019-07-30 14:03:12,208-[TS] INFO main org.ansj.util.MyStaticValue - init ambiguityLibrary to env value is : /ambiguity.dic
+2019-07-30 14:03:12,212-[TS] INFO main org.ansj.util.MyStaticValue - init userLibrary to env value is : /dpsr_kw.dic
+2019-07-30 14:03:12,216-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/ambiguity.dic
+2019-07-30 14:03:12,222-[TS] INFO main org.ansj.library.AmbiguityLibrary - load dic use time:3 path is : library/ambiguity.dic
+2019-07-30 14:03:12,223-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/default.dic
+2019-07-30 14:03:12,924-[TS] INFO main org.ansj.library.DicLibrary - load dic use time:701 path is : library/default.dic
+2019-07-30 14:03:13,489-[TS] INFO main org.ansj.library.DATDictionary - init core library ok use time : 547
+2019-07-30 14:03:13,912-[TS] INFO main org.ansj.library.NgramLibrary - init ngram ok use time :361
+2019-07-30 14:03:15,662-[TS] INFO main org.ansj.app.crf.Model - load crf model ok ! use time :1741
+2019-07-30 14:03:15,662-[TS] INFO main org.ansj.library.CrfLibrary - load crf use time:1745 path is : jar://crf.model
+2019-07-30 14:03:36,515-[TS] INFO main org.ansj.util.MyStaticValue - init ambiguityLibrary to env value is : /ambiguity.dic
+2019-07-30 14:03:36,519-[TS] INFO main org.ansj.util.MyStaticValue - init userLibrary to env value is : /dpsr_kw.dic
+2019-07-30 14:03:36,522-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/ambiguity.dic
+2019-07-30 14:03:36,531-[TS] INFO main org.ansj.library.AmbiguityLibrary - load dic use time:3 path is : library/ambiguity.dic
+2019-07-30 14:03:36,533-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/default.dic
+2019-07-30 14:03:37,227-[TS] INFO main org.ansj.library.DicLibrary - load dic use time:694 path is : library/default.dic
+2019-07-30 14:03:37,774-[TS] INFO main org.ansj.library.DATDictionary - init core library ok use time : 533
+2019-07-30 14:03:38,219-[TS] INFO main org.ansj.library.NgramLibrary - init ngram ok use time :385
+2019-07-30 14:03:39,389-[TS] INFO main org.ansj.app.crf.Model - load crf model ok ! use time :1161
+2019-07-30 14:03:39,389-[TS] INFO main org.ansj.library.CrfLibrary - load crf use time:1165 path is : jar://crf.model
+2019-07-30 14:04:44,802-[TS] INFO main org.ansj.util.MyStaticValue - init ambiguityLibrary to env value is : /ambiguity.dic
+2019-07-30 14:04:44,809-[TS] INFO main org.ansj.util.MyStaticValue - init userLibrary to env value is : /dpsr_kw.dic
+2019-07-30 14:04:44,813-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/ambiguity.dic
+2019-07-30 14:04:44,820-[TS] INFO main org.ansj.library.AmbiguityLibrary - load dic use time:3 path is : library/ambiguity.dic
+2019-07-30 14:04:44,821-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/default.dic
+2019-07-30 14:04:45,522-[TS] INFO main org.ansj.library.DicLibrary - load dic use time:701 path is : library/default.dic
+2019-07-30 14:04:46,101-[TS] INFO main org.ansj.library.DATDictionary - init core library ok use time : 562
+2019-07-30 14:04:46,510-[TS] INFO main org.ansj.library.NgramLibrary - init ngram ok use time :349
+2019-07-30 14:04:48,328-[TS] INFO main org.ansj.app.crf.Model - load crf model ok ! use time :1809
+2019-07-30 14:04:48,334-[TS] INFO main org.ansj.library.CrfLibrary - load crf use time:1818 path is : jar://crf.model
+2019-07-30 14:05:20,572-[TS] INFO main org.ansj.util.MyStaticValue - init ambiguityLibrary to env value is : /ambiguity.dic
+2019-07-30 14:05:20,576-[TS] INFO main org.ansj.util.MyStaticValue - init userLibrary to env value is : /dpsr_kw.dic
+2019-07-30 14:05:20,579-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/ambiguity.dic
+2019-07-30 14:05:20,585-[TS] INFO main org.ansj.library.AmbiguityLibrary - load dic use time:3 path is : library/ambiguity.dic
+2019-07-30 14:05:20,586-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/default.dic
+2019-07-30 14:05:21,277-[TS] INFO main org.ansj.library.DicLibrary - load dic use time:691 path is : library/default.dic
+2019-07-30 14:05:21,838-[TS] INFO main org.ansj.library.DATDictionary - init core library ok use time : 541
+2019-07-30 14:05:22,251-[TS] INFO main org.ansj.library.NgramLibrary - init ngram ok use time :354
+2019-07-30 14:05:23,978-[TS] INFO main org.ansj.app.crf.Model - load crf model ok ! use time :1718
+2019-07-30 14:05:23,978-[TS] INFO main org.ansj.library.CrfLibrary - load crf use time:1722 path is : jar://crf.model
+2019-07-30 14:06:11,145-[TS] INFO main org.ansj.util.MyStaticValue - init ambiguityLibrary to env value is : /ambiguity.dic
+2019-07-30 14:06:11,149-[TS] INFO main org.ansj.util.MyStaticValue - init userLibrary to env value is : /dpsr_kw.dic
+2019-07-30 14:06:11,155-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/ambiguity.dic
+2019-07-30 14:06:11,161-[TS] INFO main org.ansj.library.AmbiguityLibrary - load dic use time:2 path is : library/ambiguity.dic
+2019-07-30 14:06:11,163-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/default.dic
+2019-07-30 14:06:11,911-[TS] INFO main org.ansj.library.DicLibrary - load dic use time:748 path is : library/default.dic
+2019-07-30 14:06:12,538-[TS] INFO main org.ansj.library.DATDictionary - init core library ok use time : 608
+2019-07-30 14:06:12,976-[TS] INFO main org.ansj.library.NgramLibrary - init ngram ok use time :359
+2019-07-30 14:06:14,130-[TS] INFO main org.ansj.app.crf.Model - load crf model ok ! use time :1145
+2019-07-30 14:06:14,131-[TS] INFO main org.ansj.library.CrfLibrary - load crf use time:1150 path is : jar://crf.model
+2019-07-30 14:06:51,115-[TS] INFO main org.ansj.util.MyStaticValue - init ambiguityLibrary to env value is : /ambiguity.dic
+2019-07-30 14:06:51,118-[TS] INFO main org.ansj.util.MyStaticValue - init userLibrary to env value is : /dpsr_kw.dic
+2019-07-30 14:06:51,122-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/ambiguity.dic
+2019-07-30 14:06:51,127-[TS] INFO main org.ansj.library.AmbiguityLibrary - load dic use time:2 path is : library/ambiguity.dic
+2019-07-30 14:06:51,128-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/default.dic
+2019-07-30 14:06:51,845-[TS] INFO main org.ansj.library.DicLibrary - load dic use time:717 path is : library/default.dic
+2019-07-30 14:06:52,410-[TS] INFO main org.ansj.library.DATDictionary - init core library ok use time : 551
+2019-07-30 14:06:52,821-[TS] INFO main org.ansj.library.NgramLibrary - init ngram ok use time :349
+2019-07-30 14:08:31,185-[TS] INFO main org.ansj.util.MyStaticValue - init ambiguityLibrary to env value is : /ambiguity.dic
+2019-07-30 14:08:31,192-[TS] INFO main org.ansj.util.MyStaticValue - init userLibrary to env value is : /dpsr_kw.dic
+2019-07-30 14:08:31,196-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/ambiguity.dic
+2019-07-30 14:08:31,205-[TS] INFO main org.ansj.library.AmbiguityLibrary - load dic use time:3 path is : library/ambiguity.dic
+2019-07-30 14:08:31,207-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/default.dic
+2019-07-30 14:08:31,933-[TS] INFO main org.ansj.library.DicLibrary - load dic use time:726 path is : library/default.dic
+2019-07-30 14:08:32,473-[TS] INFO main org.ansj.library.DATDictionary - init core library ok use time : 524
+2019-07-30 14:08:32,880-[TS] INFO main org.ansj.library.NgramLibrary - init ngram ok use time :347
+2019-07-30 14:10:24,951-[TS] INFO main org.ansj.util.MyStaticValue - init ambiguityLibrary to env value is : /ambiguity.dic
+2019-07-30 14:10:24,955-[TS] INFO main org.ansj.util.MyStaticValue - init userLibrary to env value is : /userLibrary.dic
+2019-07-30 14:10:24,959-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/ambiguity.dic
+2019-07-30 14:10:24,965-[TS] INFO main org.ansj.library.AmbiguityLibrary - load dic use time:2 path is : library/ambiguity.dic
+2019-07-30 14:10:24,966-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/default.dic
+2019-07-30 14:10:25,669-[TS] INFO main org.ansj.library.DicLibrary - load dic use time:702 path is : library/default.dic
+2019-07-30 14:10:26,211-[TS] INFO main org.ansj.library.DATDictionary - init core library ok use time : 523
+2019-07-30 14:10:26,625-[TS] INFO main org.ansj.library.NgramLibrary - init ngram ok use time :349
+2019-07-30 14:11:03,518-[TS] INFO main org.ansj.util.MyStaticValue - init ambiguityLibrary to env value is : /ambiguity.dic
+2019-07-30 14:11:03,524-[TS] INFO main org.ansj.util.MyStaticValue - init userLibrary to env value is : /userLibrary.dic
+2019-07-30 14:11:03,532-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/ambiguity.dic
+2019-07-30 14:11:03,540-[TS] INFO main org.ansj.library.AmbiguityLibrary - load dic use time:3 path is : library/ambiguity.dic
+2019-07-30 14:11:03,541-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/default.dic
+2019-07-30 14:11:04,222-[TS] INFO main org.ansj.library.DicLibrary - load dic use time:681 path is : library/default.dic
+2019-07-30 14:11:04,768-[TS] INFO main org.ansj.library.DATDictionary - init core library ok use time : 528
+2019-07-30 14:11:05,264-[TS] INFO main org.ansj.library.NgramLibrary - init ngram ok use time :431
+2019-07-30 14:13:00,984-[TS] INFO main org.ansj.util.MyStaticValue - init ambiguityLibrary to env value is : /ambiguity.dic
+2019-07-30 14:13:00,987-[TS] INFO main org.ansj.util.MyStaticValue - init userLibrary to env value is : /userLibrary.dic
+2019-07-30 14:13:00,991-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/ambiguity.dic
+2019-07-30 14:13:00,998-[TS] INFO main org.ansj.library.AmbiguityLibrary - load dic use time:3 path is : library/ambiguity.dic
+2019-07-30 14:13:00,999-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/default.dic
+2019-07-30 14:13:01,724-[TS] INFO main org.ansj.library.DicLibrary - load dic use time:725 path is : library/default.dic
+2019-07-30 14:13:02,308-[TS] INFO main org.ansj.library.DATDictionary - init core library ok use time : 565
+2019-07-30 14:13:02,772-[TS] INFO main org.ansj.library.NgramLibrary - init ngram ok use time :403
+2019-07-30 14:15:35,362-[TS] INFO main org.ansj.util.MyStaticValue - init ambiguityLibrary to env value is : /ambiguity.dic
+2019-07-30 14:15:35,365-[TS] INFO main org.ansj.util.MyStaticValue - init userLibrary to env value is : /userLibrary.dic
+2019-07-30 14:15:35,369-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/ambiguity.dic
+2019-07-30 14:15:35,375-[TS] INFO main org.ansj.library.AmbiguityLibrary - load dic use time:3 path is : library/ambiguity.dic
+2019-07-30 14:15:35,376-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/default.dic
+2019-07-30 14:15:36,060-[TS] INFO main org.ansj.library.DicLibrary - load dic use time:684 path is : library/default.dic
+2019-07-30 14:15:36,677-[TS] INFO main org.ansj.library.DATDictionary - init core library ok use time : 595
+2019-07-30 14:15:37,086-[TS] INFO main org.ansj.library.NgramLibrary - init ngram ok use time :348
+2019-07-30 14:16:58,760-[TS] INFO main org.ansj.util.MyStaticValue - init ambiguityLibrary to env value is : /ambiguity.dic
+2019-07-30 14:16:58,763-[TS] INFO main org.ansj.util.MyStaticValue - init userLibrary to env value is : /userLibrary.dic
+2019-07-30 14:16:58,767-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/ambiguity.dic
+2019-07-30 14:16:58,773-[TS] INFO main org.ansj.library.AmbiguityLibrary - load dic use time:2 path is : library/ambiguity.dic
+2019-07-30 14:16:58,774-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/default.dic
+2019-07-30 14:16:59,464-[TS] INFO main org.ansj.library.DicLibrary - load dic use time:690 path is : library/default.dic
+2019-07-30 14:17:00,072-[TS] INFO main org.ansj.library.DATDictionary - init core library ok use time : 591
+2019-07-30 14:17:00,482-[TS] INFO main org.ansj.library.NgramLibrary - init ngram ok use time :347
+2019-07-30 14:18:18,845-[TS] INFO main org.ansj.util.MyStaticValue - init ambiguityLibrary to env value is : /ambiguity.dic
+2019-07-30 14:18:18,850-[TS] INFO main org.ansj.util.MyStaticValue - init userLibrary to env value is : /userLibrary.dic
+2019-07-30 14:18:18,855-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/ambiguity.dic
+2019-07-30 14:18:18,868-[TS] INFO main org.ansj.library.AmbiguityLibrary - load dic use time:4 path is : library/ambiguity.dic
+2019-07-30 14:18:18,869-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/default.dic
+2019-07-30 14:18:19,754-[TS] INFO main org.ansj.library.DicLibrary - load dic use time:885 path is : library/default.dic
+2019-07-30 14:18:20,336-[TS] INFO main org.ansj.library.DATDictionary - init core library ok use time : 559
+2019-07-30 14:18:20,757-[TS] INFO main org.ansj.library.NgramLibrary - init ngram ok use time :361
+2019-07-30 14:20:50,105-[TS] INFO main org.ansj.util.MyStaticValue - init ambiguityLibrary to env value is : /ambiguity.dic
+2019-07-30 14:20:50,109-[TS] INFO main org.ansj.util.MyStaticValue - init userLibrary to env value is : /userLibrary.dic
+2019-07-30 14:20:50,113-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/ambiguity.dic
+2019-07-30 14:20:50,119-[TS] INFO main org.ansj.library.AmbiguityLibrary - load dic use time:3 path is : library/ambiguity.dic
+2019-07-30 14:20:50,120-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/default.dic
+2019-07-30 14:20:50,819-[TS] INFO main org.ansj.library.DicLibrary - load dic use time:699 path is : library/default.dic
+2019-07-30 14:20:51,377-[TS] INFO main org.ansj.library.DATDictionary - init core library ok use time : 534
+2019-07-30 14:20:51,829-[TS] INFO main org.ansj.library.NgramLibrary - init ngram ok use time :387
+2019-07-30 14:22:43,745-[TS] INFO main org.ansj.util.MyStaticValue - init ambiguityLibrary to env value is : library/userAmbiguity.dic
+2019-07-30 14:22:43,749-[TS] INFO main org.ansj.util.MyStaticValue - init userLibrary to env value is : library/userLibrary.dic
+2019-07-30 14:22:43,753-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/ambiguity.dic
+2019-07-30 14:22:43,758-[TS] INFO main org.ansj.library.AmbiguityLibrary - load dic use time:2 path is : library/ambiguity.dic
+2019-07-30 14:22:43,759-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/default.dic
+2019-07-30 14:22:44,501-[TS] INFO main org.ansj.library.DicLibrary - load dic use time:742 path is : library/default.dic
+2019-07-30 14:22:45,177-[TS] INFO main org.ansj.library.DATDictionary - init core library ok use time : 648
+2019-07-30 14:22:45,620-[TS] INFO main org.ansj.library.NgramLibrary - init ngram ok use time :367
+2019-07-30 14:23:51,871-[TS] INFO main org.ansj.util.MyStaticValue - init ambiguityLibrary to env value is : library/userAmbiguity.dic
+2019-07-30 14:23:51,875-[TS] INFO main org.ansj.util.MyStaticValue - init userLibrary to env value is : library/userLibrary.dic
+2019-07-30 14:23:51,879-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/ambiguity.dic
+2019-07-30 14:23:51,885-[TS] INFO main org.ansj.library.AmbiguityLibrary - load dic use time:2 path is : library/ambiguity.dic
+2019-07-30 14:23:51,886-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/default.dic
+2019-07-30 14:23:52,705-[TS] INFO main org.ansj.library.DicLibrary - load dic use time:819 path is : library/default.dic
+2019-07-30 14:23:53,280-[TS] INFO main org.ansj.library.DATDictionary - init core library ok use time : 556
+2019-07-30 14:23:53,788-[TS] INFO main org.ansj.library.NgramLibrary - init ngram ok use time :416
+2019-07-30 14:27:21,480-[TS] INFO main org.ansj.util.MyStaticValue - init ambiguityLibrary to env value is : library/userAmbiguity.dic
+2019-07-30 14:27:21,484-[TS] INFO main org.ansj.util.MyStaticValue - init userLibrary to env value is : library/userLibrary.dic
+2019-07-30 14:27:21,488-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/ambiguity.dic
+2019-07-30 14:27:21,494-[TS] INFO main org.ansj.library.AmbiguityLibrary - load dic use time:2 path is : library/ambiguity.dic
+2019-07-30 14:27:21,495-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/default.dic
+2019-07-30 14:27:22,197-[TS] INFO main org.ansj.library.DicLibrary - load dic use time:701 path is : library/default.dic
+2019-07-30 14:27:22,720-[TS] INFO main org.ansj.library.DATDictionary - init core library ok use time : 508
+2019-07-30 14:27:23,218-[TS] INFO main org.ansj.library.NgramLibrary - init ngram ok use time :432
+2019-07-30 14:27:51,688-[TS] INFO main org.ansj.util.MyStaticValue - init ambiguityLibrary to env value is : library/userAmbiguity.dic
+2019-07-30 14:27:51,693-[TS] INFO main org.ansj.util.MyStaticValue - init userLibrary to env value is : library/userLibrary.dic
+2019-07-30 14:27:51,696-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/ambiguity.dic
+2019-07-30 14:27:51,702-[TS] ERROR main org.ansj.library.AmbiguityLibrary - init ambiguity  error in line :撸串 v format err !
+2019-07-30 14:27:51,702-[TS] INFO main org.ansj.library.AmbiguityLibrary - load dic use time:3 path is : library/ambiguity.dic
+2019-07-30 14:27:51,703-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/default.dic
+2019-07-30 14:27:52,464-[TS] INFO main org.ansj.library.DicLibrary - load dic use time:761 path is : library/default.dic
+2019-07-30 14:27:53,019-[TS] INFO main org.ansj.library.DATDictionary - init core library ok use time : 536
+2019-07-30 14:27:53,524-[TS] INFO main org.ansj.library.NgramLibrary - init ngram ok use time :439
+2019-07-30 14:28:04,724-[TS] INFO main org.ansj.util.MyStaticValue - init ambiguityLibrary to env value is : library/userAmbiguity.dic
+2019-07-30 14:28:04,727-[TS] INFO main org.ansj.util.MyStaticValue - init userLibrary to env value is : library/userLibrary.dic
+2019-07-30 14:28:04,730-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/ambiguity.dic
+2019-07-30 14:28:04,735-[TS] ERROR main org.ansj.library.AmbiguityLibrary - init ambiguity  error in line :撸串 v format err !
+2019-07-30 14:28:04,736-[TS] INFO main org.ansj.library.AmbiguityLibrary - load dic use time:3 path is : library/ambiguity.dic
+2019-07-30 14:28:04,737-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/default.dic
+2019-07-30 14:28:05,439-[TS] INFO main org.ansj.library.DicLibrary - load dic use time:702 path is : library/default.dic
+2019-07-30 14:28:05,985-[TS] INFO main org.ansj.library.DATDictionary - init core library ok use time : 528
+2019-07-30 14:28:06,399-[TS] INFO main org.ansj.library.NgramLibrary - init ngram ok use time :353
+2019-07-30 14:29:01,028-[TS] INFO main org.ansj.util.MyStaticValue - init ambiguityLibrary to env value is : library/userAmbiguity.dic
+2019-07-30 14:29:01,032-[TS] INFO main org.ansj.util.MyStaticValue - init userLibrary to env value is : library/userLibrary.dic
+2019-07-30 14:29:01,036-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/ambiguity.dic
+2019-07-30 14:29:01,041-[TS] ERROR main org.ansj.library.AmbiguityLibrary - init ambiguity  error in line :撸串 v	地	n format err !
+2019-07-30 14:29:01,041-[TS] INFO main org.ansj.library.AmbiguityLibrary - load dic use time:2 path is : library/ambiguity.dic
+2019-07-30 14:29:01,043-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/default.dic
+2019-07-30 14:29:01,722-[TS] INFO main org.ansj.library.DicLibrary - load dic use time:679 path is : library/default.dic
+2019-07-30 14:29:02,264-[TS] INFO main org.ansj.library.DATDictionary - init core library ok use time : 522
+2019-07-30 14:29:02,683-[TS] INFO main org.ansj.library.NgramLibrary - init ngram ok use time :357

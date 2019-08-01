@@ -1,0 +1,32 @@
+2019-07-29 11:31:03,227-[TS] INFO main org.ansj.util.MyStaticValue - init version.number to env value is : 2.11.8
+2019-07-29 11:31:03,231-[TS] INFO main org.ansj.util.MyStaticValue - init copyright.string to env value is : Copyright 2002-2016, LAMP/EPFL
+2019-07-29 11:31:03,231-[TS] INFO main org.ansj.util.MyStaticValue - init osgi.version.number to env value is : 2.11.8.v20160304-115712-1706a37eb8
+2019-07-29 11:31:03,234-[TS] INFO main org.ansj.util.MyStaticValue - init maven.version.number to env value is : 2.11.8
+2019-07-29 11:31:03,238-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/ambiguity.dic
+2019-07-29 11:31:03,238-[TS] ERROR main org.ansj.library.AmbiguityLibrary - Init ambiguity library error :org.ansj.exception.LibraryException:  path :library/ambiguity.dic file:/Users/qiangwang/workspace/learn-java8/library/ambiguity.dic not found or can not to read, path: library/ambiguity.dic
+2019-07-29 11:31:03,239-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/default.dic
+2019-07-29 11:31:03,239-[TS] ERROR main org.ansj.library.DicLibrary - Init ambiguity library error :org.ansj.exception.LibraryException:  path :library/default.dic file:/Users/qiangwang/workspace/learn-java8/library/default.dic not found or can not to read, path: library/default.dic
+2019-07-29 11:31:03,888-[TS] INFO main org.ansj.library.DATDictionary - init core library ok use time : 636
+2019-07-29 11:31:04,491-[TS] INFO main org.ansj.library.NgramLibrary - init ngram ok use time :486
+2019-07-29 11:33:25,910-[TS] INFO main org.ansj.util.MyStaticValue - init version.number to env value is : 2.11.8
+2019-07-29 11:33:25,914-[TS] INFO main org.ansj.util.MyStaticValue - init copyright.string to env value is : Copyright 2002-2016, LAMP/EPFL
+2019-07-29 11:33:25,915-[TS] INFO main org.ansj.util.MyStaticValue - init osgi.version.number to env value is : 2.11.8.v20160304-115712-1706a37eb8
+2019-07-29 11:33:25,917-[TS] INFO main org.ansj.util.MyStaticValue - init maven.version.number to env value is : 2.11.8
+2019-07-29 11:33:25,923-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/ambiguity.dic
+2019-07-29 11:33:25,924-[TS] ERROR main org.ansj.library.AmbiguityLibrary - Init ambiguity library error :org.ansj.exception.LibraryException:  path :library/ambiguity.dic file:/Users/qiangwang/workspace/learn-java8/library/ambiguity.dic not found or can not to read, path: library/ambiguity.dic
+2019-07-29 11:33:25,925-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/default.dic
+2019-07-29 11:33:25,926-[TS] ERROR main org.ansj.library.DicLibrary - Init ambiguity library error :org.ansj.exception.LibraryException:  path :library/default.dic file:/Users/qiangwang/workspace/learn-java8/library/default.dic not found or can not to read, path: library/default.dic
+2019-07-29 11:33:26,471-[TS] INFO main org.ansj.library.DATDictionary - init core library ok use time : 533
+2019-07-29 11:33:27,068-[TS] INFO main org.ansj.library.NgramLibrary - init ngram ok use time :504
+2019-07-29 11:47:38,090-[TS] INFO main org.ansj.util.MyStaticValue - init version.number to env value is : 2.11.8
+2019-07-29 11:47:38,094-[TS] INFO main org.ansj.util.MyStaticValue - init copyright.string to env value is : Copyright 2002-2016, LAMP/EPFL
+2019-07-29 11:47:38,095-[TS] INFO main org.ansj.util.MyStaticValue - init osgi.version.number to env value is : 2.11.8.v20160304-115712-1706a37eb8
+2019-07-29 11:47:38,097-[TS] INFO main org.ansj.util.MyStaticValue - init maven.version.number to env value is : 2.11.8
+2019-07-29 11:47:38,101-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/ambiguity.dic
+2019-07-29 11:47:38,101-[TS] ERROR main org.ansj.library.AmbiguityLibrary - Init ambiguity library error :org.ansj.exception.LibraryException:  path :library/ambiguity.dic file:/Users/qiangwang/workspace/learn-java8/library/ambiguity.dic not found or can not to read, path: library/ambiguity.dic
+2019-07-29 11:47:38,102-[TS] INFO main org.ansj.dic.impl.File2Stream - path to stream library/default.dic
+2019-07-29 11:47:38,102-[TS] ERROR main org.ansj.library.DicLibrary - Init ambiguity library error :org.ansj.exception.LibraryException:  path :library/default.dic file:/Users/qiangwang/workspace/learn-java8/library/default.dic not found or can not to read, path: library/default.dic
+2019-07-29 11:47:38,690-[TS] INFO main org.ansj.library.DATDictionary - init core library ok use time : 575
+2019-07-29 11:47:39,227-[TS] INFO main org.ansj.library.NgramLibrary - init ngram ok use time :452
+2019-07-29 11:47:40,412-[TS] INFO main org.ansj.app.crf.Model - load crf model ok ! use time :1174
+2019-07-29 11:47:40,412-[TS] INFO main org.ansj.library.CrfLibrary - load crf use time:1178 path is : jar://crf.model

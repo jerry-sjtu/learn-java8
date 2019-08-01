@@ -58,6 +58,8 @@ public class Nd4jDemo {
             System.out.println(vStack);
             System.out.println(mean1);
             System.out.println(mean2);
+            System.out.println(array.isAttached());
+
 
             System.out.println("------------------------------");
 
