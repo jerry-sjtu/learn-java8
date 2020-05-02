@@ -19,27 +19,17 @@ public class NDDemo {
     private static INDArray itemArray;
 
     public static void main(String[] args) {
-
-//        arrayOp();
-//        compare();
-//
-//        for(int i = 0; i < 1000; i++) {
-//            concatOp();
-//        }
-
         int itemNum = 300;
         int featureNum = 100;
         float[] userVec = new float[featureNum];
         for(int i = 0; i < featureNum; i++) {
             userVec[i] = 0.01f;
         }
-        float[][] itemMatrix = new float[featureNum][itemNum];
-        for(int i = 0; i < itemMatrix.length; i++) {
-            for (int j = 0; j < itemMatrix[i].length; j++) {
+        float[][] itemMatrix = new float[itemNum][featureNum];
+        for(int i = 0; i < itemNum; i++) {
+            for (int j = 0; j < featureNum; j++) {
                 itemMatrix[i][j] = i;
-                System.out.print(i + " ");
             }
-            System.out.println("");
         }
         float[] score = new float[itemNum];
         for(int i = 0; i < score.length; i++) {
@@ -47,28 +37,28 @@ public class NDDemo {
         }
 
         WorkspaceConfiguration initialConfig = WorkspaceConfiguration.builder()
-                .initialSize(100 * 1024L * 1024L)
-                .policyAllocation(AllocationPolicy.STRICT)
-                .policyLearning(LearningPolicy.NONE)
+                .initialSize(100 * 1024L)
                 .build();
 
-        INDArray uv = Nd4j.create(userVec);
+        System.out.println("-----------------------------------");
 
 
-        try(MemoryWorkspace ws = Nd4j.getWorkspaceManager().getAndActivateWorkspace(initialConfig, "SOME_ID")) {
+            INDArray m1 = Nd4j.create(itemMatrix);
+            System.out.println(m1.shape());
             long t1 = System.currentTimeMillis();
-            for (int i = 0; i < 10000; i++) {
-                    bestList1(userVec, itemMatrix, score);
+            for (int i = 0; i < 100; i++) {
+//                    bestList1(userVec, itemMatrix, score);
+                m1.mmul(m1.transpose());
             }
             System.out.println(System.currentTimeMillis() - t1);
             System.out.println("------------------------");
-        }
-        long t2 = System.currentTimeMillis();
-        for(int i = 0; i < 10000; i++) {
-            bestList2(userVec, itemMatrix, score);
-        }
-        System.out.println(System.currentTimeMillis() - t2);
-        System.out.println("------------------------");
+
+//        long t2 = System.currentTimeMillis();
+//        for(int i = 0; i < 10000; i++) {
+//            bestList2(userVec, itemMatrix, score);
+//        }
+//        System.out.println(System.currentTimeMillis() - t2);
+//        System.out.println("------------------------");
 
 //        for(int i = 0; i < round; i++) {
 //            javaOp(array);

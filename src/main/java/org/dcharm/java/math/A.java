@@ -26,6 +26,48 @@ public class A{
 
 //        String s = FilenameUtils.concat(System.getProperty("java.io.tmpdir"), "dl4j_w2vSentiment/");
 //        System.out.println(s);
+
+    }
+
+    public static float product(float[] a, float[] b) {
+        float sum = 0;
+        for(int i = 0; i < a.length; i++) {
+            sum += a[i] * b[i];
+        }
+        return sum;
+    }
+
+    public static float dotProduct_Float(float[] a, int aoff, float[] b, int boff, int length) {
+        int UNROLL_LENGTH = 8;
+        int extra = length % UNROLL_LENGTH;
+        int loops = length / UNROLL_LENGTH;
+        float sum0 = 0.0f;
+        float sum1 = 0.0f;
+        float sum2 = 0.0f;
+        float sum3 = 0.0f;
+        float sum4 = 0.0f;
+        float sum5 = 0.0f;
+        float sum6 = 0.0f;
+        float sum7 = 0.0f;
+
+        for(int i = 0; i < extra; i++) {
+            sum0 += a[aoff + i] * b[boff + i];
+        }
+        aoff += extra;
+        boff += extra;
+
+        for(int i = 0; i < loops; i++, aoff += UNROLL_LENGTH, boff += UNROLL_LENGTH) {
+            sum0 += a[aoff + 0] * b[boff + 0];
+            sum1 += a[aoff + 1] * b[boff + 1];
+            sum2 += a[aoff + 2] * b[boff + 2];
+            sum3 += a[aoff + 3] * b[boff + 3];
+            sum4 += a[aoff + 4] * b[boff + 4];
+            sum5 += a[aoff + 5] * b[boff + 5];
+            sum6 += a[aoff + 6] * b[boff + 6];
+            sum7 += a[aoff + 7] * b[boff + 7];
+        }
+
+        return sum0 + sum1 + sum2 + sum3 + sum4 + sum5 + sum6 + sum7;
     }
 
     private static Map<String, Integer> parseImpClick(String s) {
@@ -71,23 +113,16 @@ public class A{
     }
 
     public static void main (String args[]){
-//        String s = FilenameUtils.concat(System.getProperty("java.io.tmpdir"), "dl4j_w2vSentiment/");
-//        System.out.println(s);
-//        float a = 0.055364f;
-//        System.out.println(a * a);
-
-        int x = 1;
-        try {
-            if(x > 0) {
-                return;
-            }
+        long t1 = System.currentTimeMillis();
+        for(int i = 0 ; i < 100000; i++) {
+            float[] a = {1, 2, 3, 4, 5, 6, 6, 8, 1, 2, 3, 4, 5, 6, 6, 8, 1, 2, 3, 4, 5, 6, 6, 8};
+            float[] b = {1, 2, 3, 4, 5, 6, 6, 8, 1, 2, 3, 4, 5, 6, 6, 8, 1, 2, 3, 4, 5, 6, 6, 8};
+//            float product = dotProduct_Float(a,0, b, 0, a.length);
+            float product = product(a, b);
         }
-        catch (Exception e) {
-            logger.error(e.getMessage(), e);
-        }
-        finally {
-            logger.info("here--------");
-        }
+        System.out.println(System.currentTimeMillis() - t1);
+//        System.out.println(dotProduct_Float(a,0, b, 0, a.length));
+//        System.out.println(product(a, b));
 
     }
 }
