@@ -8,6 +8,9 @@ public class A {
     private int numLocalIndexBits =
             Math.min(java.lang.Long.numberOfLeadingZeros(numBlocks - 1), 63);
     private long localIndexMask = (1L << numLocalIndexBits) - 1L;
+    private String contentId;
+
+
 
     public static void main(String[] args) throws Exception {
 
